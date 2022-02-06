@@ -74,10 +74,12 @@ public static WebDriver driver;
 		    Thread.sleep(3000);
 		    // Clear default Month and than Re-Enter Card Expiry Month
 		    driver.findElement(By.xpath("//*[@id=\"creditCardMonth\"]")).clear();
+		    Thread.sleep(3000);
 		    driver.findElement(By.xpath("//*[@id=\"creditCardMonth\"]")).sendKeys("06");
 		    Thread.sleep(3000);
 		    // Clear default Year and than Re-Enter Card Expiry Year
 		    driver.findElement(By.xpath("//*[@id=\"creditCardYear\"]")).clear();
+		    Thread.sleep(3000);
 		    driver.findElement(By.xpath("//*[@id=\"creditCardYear\"]")).sendKeys("2025");
 		    Thread.sleep(3000);
 		    // Enter Name on Card
